@@ -1,0 +1,189 @@
+.label_style {
+display: block;
+width: max-content;
+background-color: lightgrey;
+padding: 0 4px 0 4px;
+border-radius: 5px;
+margin-bottom: 8px;
+}
+
+input {
+width: 520px;
+padding: 12px;
+border-radius: 5px;
+border-width: 1px;
+}
+
+.p_view {
+   color: lightgrey; 
+   margin-top: 5px;
+}
+
+select {
+    position: relative;
+    width: 550px;
+    padding: 12px;
+    border-radius: 5px;
+    border-width: 1px; 
+    background: lightgrey; 
+}
+
+option {
+    background-color: white;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.input_number {
+    width: 80px;
+    height: 50px;
+    padding: 0px;
+    border-radius: 5px;
+    border-width: 1px;   
+}
+
+.form_selector {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.range_style {
+    height: 20px;
+    width: 450px;
+    padding: 0;
+    margin-left: 10px;
+    background-color: blue;
+    border-radius: 20px; 
+}
+
+.checkbox_style {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkbox_text {
+    width: max-content;
+    background-color: lightgrey;
+    padding: 0 4px 0 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.select_output_format {
+    position: relative;
+    width: 550px;
+    padding: 12px;
+    border-radius: 5px;
+    border-width: 1px; 
+    background: white; 
+}
+
+.button {
+    display: inline-block;
+}
+
+.submit_button {
+    border-radius: 5px; 
+    border-width: 1px; 
+    background-color: black;
+    color: white; 
+    padding: 10px 15px 10px 15px;
+}
+
+.reset_button {
+    border-radius: 5px; 
+    border-width: 1px; 
+    background-color: white; 
+    padding: 10px 15px 10px 15px;
+    margin-left: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.ol_style {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+video {
+    height: 150px;
+    width: 150px;
+    padding-right: 5px;
+}
+
+a {
+    color: black;
+ text-decoration: underline;   
+}
+
+img {
+    width: 600px;
+}
+
+.span_style {
+    width: max-content;
+    background-color: lightgrey;
+    padding: 0 4px 0 4px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    }
+
+ .building {
+    height: 500px;
+    width: 500px;
+ } 
+
+.function_button {
+margin-top: 20px;
+}
+
+.button_func {
+    border-radius: 5px; 
+    border-width: 1px; 
+    background-color: white; 
+    padding: 10px 15px 10px 15px;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.output {
+    padding-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.replicate_style {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-left: 600px;
+    
+}
+
+.replicate_title {
+    padding-right: 15px;
+}
