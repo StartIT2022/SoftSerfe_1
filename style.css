@@ -1,3 +1,91 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title {
+    padding-right: 20px;
+}
+
+.text:hover {
+color: black;
+/* width: max-content;
+background-color: black;
+padding: 4px 4px 4px 4px;
+border-radius: 5px;
+margin-bottom: 8px; */
+}
+
+.text {
+color: lightgrey;
+text-decoration: none;
+}
+
+.h1 {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.main_title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.animate {
+    margin-left: 30px;
+}
+
+.btn_link {
+    width: max-content;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border-width: 1px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+
+.btn_title:hover {
+    cursor: pointer;
+    color: white;
+    background-color: lightgray;
+}
+
+.btn_link:hover {
+    color: white;
+    background-color: lightgray; 
+}
+
+.button_style {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 20px;
+    margin-left: 850px;
+}
+
+.btn_title {
+    text-decoration: none;
+}
+
+.public {
+    display: block;
+    width: max-content;
+    background-color: lightgrey;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px; 
+}
+
+
+
+
+
 .label_style {
 display: block;
 width: max-content;
@@ -32,7 +120,7 @@ option {
     background-color: white;
 }
 
-select:hover {
+.select:hover {
     cursor: pointer;
 }
 
@@ -180,7 +268,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    padding-left: 600px;
+    padding-left: 1100px;
     
 }
 
